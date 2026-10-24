@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#3C4D3D" />
+  <meta name="description" content="Koamishin Studio — Boutique digital product and engineering studio. We design intuitive interfaces and engineer high-concurrency web systems for ambitious founders and teams." />
+  <meta property="og:title" content="Koamishin Studio — Digital Product &amp; Engineering Studio" />
+  <meta property="og:description" content="No middlemen. No agency overhead. Direct partnership with senior architects and design engineers to ship production systems in weeks." />
+  <meta property="og:image" content="images/koamishin-logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Koamishin Studio — Digital Product &amp; Engineering Studio</title>
+
+  <link rel="icon" type="image/png" href="images/koamishin-logo.png" />
+
+  <!-- Fonts: Bricolage Grotesque, Work Sans, Spline Sans Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Spline+Sans+Mono:wght@400;500;600&family=Work+Sans:ital,wght@0,300..700;1,400..600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-status-bar">
+    <div class="wrap status-inner">
+      <div class="status-left">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="status-text"><strong>Q2/Q3 2026 Sprints</strong> — Now scheduling client product builds &amp; architecture audits</span>
+      </div>
+      <div class="status-right">
+        <span class="location-badge">Direct Partner Access</span>
+        <span class="clock-display" id="studio-clock" aria-label="Studio status">Active</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Koamishin Studio — Back to top">
+        <img src="images/koamishin-logo.png" alt="Koamishin Logo" class="brand-logo" width="34" height="34" />
+        <span class="brand-name">Koamishin<small>Studio</small></span>
+      </a>
+
+      <button class="nav-toggle-button" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#case-studies">Solutions</a></li>
+          <li><a class="nav-link" href="#comparison">Why Us</a></li>
+          <li><a class="nav-link" href="#packages">Engagements</a></li>
+          <li><a class="nav-link" href="#estimator">Scope Estimator</a></li>
+          <li><a class="nav-link" href="#team">Partners</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn-primary" href="#contact"><span class="btn-text-full">Start a Project</span><span class="btn-text-short">Contact</span></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero" id="top">
+      <div class="wrap hero-center">
+        <div class="badges reveal">
+          <span class="badge coral">Product &amp; Engineering Studio</span>
+          <span class="badge teal">Fixed-Scope Sprints</span>
+          <span class="badge gold">Direct Partner Access</span>
+        </div>
+
+        <h1 class="hero-title reveal">
+          We design and engineer high-performance web platforms for <em>ambitious founders</em>.
+        </h1>
+
+        <p class="hero-deck reveal">
+          No account managers. No junior handoffs. No 6-month bloated agency timelines. <strong>Koamishin Studio</strong> partners directly with leadership teams to design intuitive interfaces, architect scalable backends, and ship resilient digital products in weeks.
+        </p>
+
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="#estimator">Configure Project Sprint →</a>
+          <a class="btn btn-ghost" href="#case-studies">Explore Client Solutions</a>
+        </div>
+
+        <div class="hero-proof reveal">
+          <div class="avatars" aria-label="Studio Partners">
+            <img src="images/team-Rui-Zen.png" alt="Louis" width="36" height="36" loading="lazy" />
+            <img src="images/team-SorenOutis.png" alt="Ortiz" width="36" height="36" loading="lazy" />
+            <img src="images/team-Jaymark.png" alt="Jaymark" width="36" height="36" loading="lazy" />
+            <img src="images/team-Angelika.png" alt="Angelika" width="36" height="36" loading="lazy" />
+          </div>
+          <p><b>4 Senior Partners</b> · <b>100% Direct Collaboration</b> · <b>Sub-100ms Performance Standard</b></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Solutions / Case Studies -->
+    <section class="section" id="case-studies">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Proven Impact</span>
+          <h2 class="section-title">Solutions we have <em>shipped</em></h2>
+          <p class="lede">How we help businesses eliminate bottlenecks, launch new product lines, and replace legacy software with high-throughput modern systems.</p>
+        </div>
+
+        <div class="work-showcase-grid">
+          <!-- Solution 1: OpenSinop -->
+          <article class="work-card reveal" data-project="opensinop">
+            <div class="work-visual">
+              <img src="images/northwind-dashboard-product.jpg" alt="Autonomous finance operations platform" width="800" height="540" loading="lazy" />
+              <button class="work-inspect-btn" type="button" data-open-project="opensinop">Read Client Story →</button>
+            </div>
+            <div class="work-content">
+              <div class="work-meta">
+                <span class="work-sector">Fintech &amp; Automated Spending</span>
+                <span class="work-year">Case Study</span>
+              </div>
+              <h3 class="work-title">
+                <button type="button" data-open-project="opensinop">Replacing Fragmented Billing with an Autonomous Policy Engine</button>
+              </h3>
+              <p class="work-desc">
+                Engineered a bounded departmental spending engine. Integrated strict budget policy gates, real-time audit telemetry, and verified cryptographic settlement to prevent financial drift.
+              </p>
+              <div class="work-impact-badge">
+                <strong>Result:</strong> Zero financial drift across 10,000+ automated budget allocations.
+              </div>
+              <div class="work-tags">
+                <span>UI/UX Architecture</span><span>Laravel 12</span><span>Real-Time Telemetry</span><span>Security Gate</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 2: Modern Multi-Store Retail -->
+          <article class="work-card reveal" data-project="konbi">
+            <div class="work-visual">
+              <img src="images/fieldnotes-editorial-magazine.jpg" alt="Retail inventory management and cashier checkout interface" width="800" height="540" loading="lazy" />
+              <button class="work-inspect-btn" type="button" data-open-project="konbi">Read Client Story →</button>
+            </div>
+            <div class="work-content">
+              <div class="work-meta">
+                <span class="work-sector">Retail &amp; Inventory Operations</span>
+                <span class="work-year">Case Study</span>
+              </div>
+              <h3 class="work-title">
+                <button type="button" data-open-project="konbi">Sub-100ms POS Terminals with Multi-Store Inventory Reconciliation</button>
+              </h3>
+              <p class="work-desc">
+                High-concurrency retail platform engineered for barcode scanner integration, optimistic UI updates, local offline transaction queueing, and multi-warehouse replenishment telemetry.
+              </p>
+              <div class="work-impact-badge">
+                <strong>Result:</strong> Sub-100ms cashier terminal checkout with zero lost sales during outages.
+              </div>
+              <div class="work-tags">
+                <span>Hardware Scanner Hooks</span><span>Offline Queue</span><span>Multi-Store Sync</span><span>Vue 3</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 3: Academic Governance -->
+          <article class="work-card reveal" data-project="koakademy">
+            <div class="work-visual">
+              <img src="images/papier-press-brand-identity.jpg" alt="Institutional academic governance platform" width="800" height="540" loading="lazy" />
+              <button class="work-inspect-btn" type="button" data-open-project="koakademy">Read Client Story →</button>
+            </div>
+            <div class="work-content">
+              <div class="work-meta">
+                <span class="work-sector">Institutional SaaS &amp; Governance</span>
+                <span class="work-year">Case Study</span>
+              </div>
+              <h3 class="work-title">
+                <button type="button" data-open-project="koakademy">Transforming Manual Spreadsheets into a Centralized Student Platform</button>
+              </h3>
+              <p class="work-desc">
+                Architected an institutional governance system handling admissions, automated billing, faculty grading, and departmental access control with white-label theming and offline PWA support.
+              </p>
+              <div class="work-impact-badge">
+                <strong>Result:</strong> Cut institutional enrollment processing time by 65% across multi-campus faculties.
+              </div>
+              <div class="work-tags">
+                <span>Role-Based Access (RBAC)</span><span>Automated Billing</span><span>Offline PWA</span><span>React</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 4: KoamiPlatform -->
+          <article class="work-card reveal" data-project="starterkit">
+            <div class="work-visual">
+              <img src="images/arbor-co-ecommerce-website.jpg" alt="Design system and unified web application platform" width="800" height="540" loading="lazy" />
+              <button class="work-inspect-btn" type="button" data-open-project="starterkit">Read Client Story →</button>
+            </div>
+            <div class="work-content">
+              <div class="work-meta">
+                <span class="work-sector">Design System &amp; Web Platform</span>
+                <span class="work-year">Case Study</span>
+              </div>
+              <h3 class="work-title">
+                <button type="button" data-open-project="starterkit">Unified Component Architecture for High-Velocity Product Teams</button>
+              </h3>
+              <p class="work-desc">
+                Built an enterprise-grade full-stack architecture with unified design tokens, sub-second page transitions, typed routing, and automated testing suites that reduce development setup from days to minutes.
+              </p>
+              <div class="work-impact-badge">
+                <strong>Result:</strong> Reduced frontend feature delivery cycle time by 4x with zero regression bugs.
+              </div>
+              <div class="work-tags">
+                <span>Design System</span><span>Inertia.js</span><span>Vue 3 / React</span><span>Octane Concurrency</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Anti-Agency Comparison Table -->
+    <section class="section section-tinted" id="comparison">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">The Anti-Agency Standard</span>
+          <h2 class="section-title">Why founders partner with an <em>artisan studio</em></h2>
+          <p class="lede">Traditional agencies sell you senior partners in the pitch, then outsource your project to junior freelancers. We work differently.</p>
+        </div>
+
+        <div class="comparison-table-wrapper reveal">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th class="col-criteria">Aspect</th>
+                <th class="col-traditional">Traditional Agencies</th>
+                <th class="col-studio">Koamishin Studio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cell-criteria"><strong>Who builds your product</strong></td>
+                <td class="cell-traditional">Account managers &amp; rotating junior freelancers learning on your dime</td>
+                <td class="cell-studio"><strong>Direct access to the 4 senior architects &amp; designers from day one</strong></td>
+              </tr>
+              <tr>
+                <td class="cell-criteria"><strong>Time to first working code</strong></td>
+                <td class="cell-traditional">6–8 weeks of slide decks, wireframes, and theoretical discovery meetings</td>
+                <td class="cell-studio"><strong>Working interactive software deployed to staging by Week 2</strong></td>
+              </tr>
+              <tr>
+                <td class="cell-criteria"><strong>Pricing model</strong></td>
+                <td class="cell-traditional">Hourly billing that financially rewards moving slowly and expanding scope</td>
+                <td class="cell-studio"><strong>Transparent fixed-scope, fixed-price 2- to 6-week sprints</strong></td>
+              </tr>
+              <tr>
+                <td class="cell-criteria"><strong>Engineering quality</strong></td>
+                <td class="cell-traditional">Disposable code with minimal test coverage and messy handoffs</td>
+                <td class="cell-studio"><strong>Strictly typed, 100% Pest-tested, production-grade architecture</strong></td>
+              </tr>
+              <tr>
+                <td class="cell-criteria"><strong>Intellectual property</strong></td>
+                <td class="cell-traditional">Proprietary vendor lock-in and monthly platform maintenance fees</td>
+                <td class="cell-studio"><strong>You own 100% of the code, IP, and design assets upon completion</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engagement Packages (Transparent Pricing & Models) -->
+    <section class="section" id="packages">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Engagement Models</span>
+          <h2 class="section-title">Transparent packages, <em>zero hidden fees</em></h2>
+          <p class="lede">Clear sprint cycles designed to take you from concept to market with velocity and certainty.</p>
+        </div>
+
+        <div class="packages-grid">
+          <!-- Package 1: Launchpad Sprint -->
+          <div class="package-card reveal">
+            <span class="package-tag">Early-Stage MVP</span>
+            <h3 class="package-name">The 2-Week Launchpad</h3>
+            <p class="package-desc">For founders needing a live, high-polish MVP in front of users and investors immediately. From Figma design to production deployment in 14 days.</p>
+            <div class="package-pricing">
+              <span class="price-val">$4,500</span>
+              <span class="price-term">Fixed Price · 2-Week Sprint</span>
+            </div>
+            <ul class="package-features">
+              <li>Full-stack Laravel + Inertia.js web platform</li>
+              <li>Authentication, billing &amp; Stripe checkout</li>
+              <li>Mobile-responsive UI with custom Tailwind tokens</li>
+              <li>Production deployment to staging &amp; live server</li>
+              <li>14 days of post-launch bug warranty</li>
+            </ul>
+            <a class="btn btn-ghost" href="#contact">Book Launchpad Sprint →</a>
+          </div>
+
+          <!-- Package 2: Full Product Build -->
+          <div class="package-card package-featured reveal">
+            <span class="package-tag featured-tag">★ Most Popular Engagement</span>
+            <h3 class="package-name">Full-Cycle Product Build</h3>
+            <p class="package-desc">Complete end-to-end design and engineering for ambitious web applications. From initial wireframing to custom database schemas and resilient APIs.</p>
+            <div class="package-pricing">
+              <span class="price-val">$8,500 – $14,000</span>
+              <span class="price-term">Fixed Scope · 4–6 Week Sprint</span>
+            </div>
+            <ul class="package-features">
+              <li>Complete UI/UX design in Figma + clickable prototype</li>
+              <li>Full-stack production development with strict types</li>
+              <li>Comprehensive Pest automated test coverage</li>
+              <li>Role permissions, background jobs &amp; third-party APIs</li>
+              <li>Complete developer documentation &amp; team handoff</li>
+              <li>30 days of post-launch engineering support</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Schedule Product Sprint →</a>
+          </div>
+
+          <!-- Package 3: Advisory & Audits -->
+          <div class="package-card reveal">
+            <span class="package-tag">Existing Systems</span>
+            <h3 class="package-name">Architecture &amp; Scale Audit</h3>
+            <p class="package-desc">For growing companies experiencing query slowdowns, high server latency, or scaling strain. We profile your stack and tune performance.</p>
+            <div class="package-pricing">
+              <span class="price-val">$4,000</span>
+              <span class="price-term">Or $2,500/mo Retainer Advisory</span>
+            </div>
+            <ul class="package-features">
+              <li>Forensic query profiling &amp; N+1 bug elimination</li>
+              <li>Octane (Swoole/RoadRunner) concurrency tuning</li>
+              <li>Redis caching architecture &amp; connection pools</li>
+              <li>Security posture &amp; dependency audit</li>
+              <li>Prioritized implementation roadmap with benchmarks</li>
+            </ul>
+            <a class="btn btn-ghost" href="#contact">Schedule System Audit →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Scope & Budget Estimator -->
+    <section class="section section-tinted" id="estimator">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Interactive Project Tool</span>
+          <h2 class="section-title">Configure your <em>project scope</em></h2>
+          <p class="lede">Select your requirements below to calculate an estimated sprint timeline and instantly generate a formatted project brief.</p>
+        </div>
+
+        <div class="estimator-container reveal">
+          <div class="estimator-form">
+            <!-- Question 1 -->
+            <div class="estimator-group">
+              <label class="estimator-label">1. What are you looking to build?</label>
+              <div class="estimator-options" id="opt-project-type">
+                <button type="button" class="est-btn is-selected" data-val="Full Web Platform" data-weeks="4" data-cost="8500">Full Web Application</button>
+                <button type="button" class="est-btn" data-val="MVP Launchpad" data-weeks="2" data-cost="4500">2-Week MVP</button>
+                <button type="button" class="est-btn" data-val="Scale &amp; Speed Audit" data-weeks="2" data-cost="4000">Performance Audit</button>
+                <button type="button" class="est-btn" data-val="Design System" data-weeks="3" data-cost="5000">UI/UX Design System</button>
+              </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="estimator-group">
+              <label class="estimator-label">2. What is your current project stage?</label>
+              <div class="estimator-options" id="opt-stage">
+                <button type="button" class="est-btn is-selected" data-val="Concept &amp; Wireframes">Concept / Wireframes</button>
+                <button type="button" class="est-btn" data-val="Figma Ready for Build">Figma Designs Ready</button>
+                <button type="button" class="est-btn" data-val="Existing App Needing Rebuild">Existing Codebase Rebuild</button>
+              </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="estimator-group">
+              <label class="estimator-label">3. Target launch timeline?</label>
+              <div class="estimator-options" id="opt-timeline">
+                <button type="button" class="est-btn is-selected" data-val="Within 30 Days">Within 30 Days</button>
+                <button type="button" class="est-btn" data-val="1 to 2 Months">1–2 Months</button>
+                <button type="button" class="est-btn" data-val="Flexible">Flexible</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Estimator Output Box -->
+          <div class="estimator-summary">
+            <span class="est-summary-kicker">Recommended Sprint Package</span>
+            <h4 class="est-package-title" id="est-display-package">Full-Cycle Product Build</h4>
+
+            <div class="est-metrics">
+              <div class="est-metric">
+                <span class="est-metric-label">Estimated Delivery</span>
+                <strong class="est-metric-val" id="est-display-time">4–5 Weeks</strong>
+              </div>
+              <div class="est-metric">
+                <span class="est-metric-label">Investment Range</span>
+                <strong class="est-metric-val" id="est-display-price">~$8,500</strong>
+              </div>
+            </div>
+
+            <div class="est-summary-breakdown">
+              <span class="est-breakdown-title">Your Project Brief:</span>
+              <p id="est-brief-text">Building a Full Web Application from Concept / Wireframes with launch target Within 30 Days.</p>
+            </div>
+
+            <a class="btn btn-primary" id="est-cta-btn" href="mailto:team@koamishin.com">
+              Inquire with this Brief →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Production Playbook / Studio Standards -->
+    <section class="section" id="standards">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">The Studio Playbook</span>
+          <h2 class="section-title">Our <em>production standards</em></h2>
+          <p class="lede">How we make technical decisions that save clients tens of thousands in ongoing hosting complexity and technical debt.</p>
+        </div>
+
+        <div class="principles-grid">
+          <div class="principle-box reveal">
+            <span class="principle-star">★</span>
+            <h4>The Majestic Monolith</h4>
+            <p>We reject microservice hype that inflates AWS bills and slows developer velocity. Monolithic Laravel + Inertia platforms are simpler to maintain, faster to deploy, and scale to millions of requests with a fraction of the DevOps overhead.</p>
+          </div>
+          <div class="principle-box reveal">
+            <span class="principle-star">★</span>
+            <h4>100% Deterministic Testing</h4>
+            <p>We ship complete Pest automated test suites with every client codebase. Your application tests run automatically on every GitHub pull request, ensuring new feature additions never break existing checkout or billing flows.</p>
+          </div>
+          <div class="principle-box reveal">
+            <span class="principle-star">★</span>
+            <h4>Sub-100ms Interaction Latency</h4>
+            <p>Using Laravel Octane workers and Redis cache layers, we tune server response times under 100ms. Paired with optimistic UI updates, your digital product feels instant, tactile, and responsive on mobile hardware.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Partners (Team) -->
+    <section class="section section-tinted" id="team">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">The Partners</span>
+          <h2 class="section-title">The team behind Koamishin</em></h2>
+          <p class="lede">When you hire Koamishin Studio, you work directly with experienced partners who write code and design systems daily.</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Louis -->
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="images/team-Rui-Zen.png" alt="Louis" width="108" height="108" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Louis</h3>
+              <div class="team-handles">
+                <span class="team-handle">Founder · Principal Architect</span>
+              </div>
+              <span class="team-stack">Laravel · Vue · PHP · System Architecture</span>
+              <p>Leads platform architecture and backend infrastructure. Focuses on system resilience, high-concurrency data models, and clean engineering standards.</p>
+              <div class="team-meta">
+                <a class="repo-link" href="https://github.com/Rui-Zen" target="_blank" rel="noopener noreferrer">GitHub Profile →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Ortiz -->
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="images/team-SorenOutis.png" alt="Ortiz" width="108" height="108" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Ortiz</h3>
+              <div class="team-handles">
+                <span class="team-handle">Full-Stack &amp; AI Systems Engineer</span>
+              </div>
+              <span class="team-stack">Laravel · Vue · Automation · Data Systems</span>
+              <p>Specializes in scalable data pipelines, automated workflow engines, and integrating complex backend logic with reactive, polished user interfaces.</p>
+              <div class="team-meta">
+                <a class="repo-link" href="https://github.com/SorenOutis" target="_blank" rel="noopener noreferrer">GitHub Profile →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Jaymark -->
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="images/team-Jaymark.png" alt="Jaymark" width="108" height="108" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Jaymark</h3>
+              <div class="team-handles">
+                <span class="team-handle">UI/UX Designer &amp; Mobile Developer</span>
+              </div>
+              <span class="team-stack">Figma · Flutter · React · Design Systems</span>
+              <p>Crafts human-centered user experiences, wireframes, and design systems. Translates conceptual prototypes into responsive, accessible web and mobile interfaces.</p>
+              <div class="team-meta">
+                <a class="repo-link" href="https://github.com/jayreid017" target="_blank" rel="noopener noreferrer">GitHub Profile →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Angelika -->
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="images/team-Angelika.png" alt="Angelika" width="108" height="108" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Angelika</h3>
+              <div class="team-handles">
+                <span class="team-handle">Frontend Developer &amp; Design Engineer</span>
+              </div>
+              <span class="team-stack">React · TypeScript · Tailwind · Micro-motion</span>
+              <p>Bridges visual design with modern frontend engineering. Builds tactile component libraries, smooth micro-interactions, and accessible web experiences.</p>
+              <div class="team-meta">
+                <a class="repo-link" href="https://github.com/elyashzyl" target="_blank" rel="noopener noreferrer">GitHub Profile →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Project Inquiry -->
+    <section class="section section-contact" id="contact">
+      <div class="wrap">
+      <div class="cta-band reveal">
+        <h2>Ready to build something undeniable?</h2>
+        <p>Tell us about your product roadmap, timeline, and goals. We personally review every inquiry and respond within 24 hours.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="mailto:team@koamishin.com?subject=Studio%20Sprint%20Inquiry%20%E2%80%94%20Koamishin%20Studio" style="background:#fff; color:var(--ink)">
+            Write to team@koamishin.com
+          </a>
+          <a class="btn btn-ghost" href="https://koamishin.com" target="_blank" rel="noopener noreferrer" style="color:#fff; border-color:rgba(255,255,255,0.4)">
+            Visit Koamishin Collective ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Case Study Drawer -->
+  <aside class="case-drawer" id="case-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="drawer-backdrop" id="drawer-backdrop"></div>
+    <div class="drawer-panel" id="drawer-panel">
+      <button class="drawer-close-btn" id="drawer-close-btn" type="button" aria-label="Close case study drawer">
+        <span>Close</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="drawer-content" id="drawer-content">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#top">
+            <img src="images/koamishin-logo.png" alt="Koamishin Logo" class="brand-logo" width="34" height="34" />
+            <span class="brand-name" style="color:var(--cream)">Koamishin<small style="color:var(--gold)">Studio</small></span>
+          </a>
+          <p>An independent digital product studio. We design intuitive interfaces and engineer scalable web platforms for teams that value craft and speed.</p>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h6>Studio</h6>
+            <ul>
+              <li><a href="#case-studies">Solutions</a></li>
+              <li><a href="#comparison">Why Us</a></li>
+              <li><a href="#packages">Engagements</a></li>
+              <li><a href="#estimator">Estimator</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h6>Network</h6>
+            <ul>
+              <li><a href="https://koamishin.com" target="_blank" rel="noopener noreferrer">Koamishin Collective ↗</a></li>
+              <li><a href="https://github.com/koamishin" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+              <li><a href="https://koamishin.com/blog/" target="_blank" rel="noopener noreferrer">Journal ↗</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h6>Inquiries</h6>
+            <ul>
+              <li><a href="mailto:team@koamishin.com">team@koamishin.com</a></li>
+              <li><a href="#contact">Start a Sprint</a></li>
+              <li><span>Remote Worldwide</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-base">
+        <span>© 2026 Koamishin Studio. All rights reserved.</span>
+        <a class="back-to-top" href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
